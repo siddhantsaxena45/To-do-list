@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bg {
+    position: absolute;
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+    opacity: 0.6;
+
+}
+
+h1 {
+    margin: 15px;
+    color: rgb(126, 0, 244);
+}
+
+input {
+    text-align: center;
+    padding: 2px 20px 2px 20px;
+    background-color: rgba(255, 255, 0, 0.42);
+    border: 1px solid rgb(50, 205, 50);
+}
+
+.delete {
+    font-size: 15px;
+    margin: 5px;
+    font-weight: 700;
+    padding: 0px 3px 0px 3px;
+    color: rgba(255, 0, 0, 0.574);
+    border: 1px solid rgba(255, 0, 0, 0.474);
+    border-radius: 100%;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+
+.delete:hover {
+    color: rgb(255, 0, 0);
+    border: 1px solid rgb(255, 0, 0);
+}
+
+.add {
+    background-color: rgba(73, 255, 49, 0.636);
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.add:hover {
+    background-color: rgb(0, 240, 104);
+    border-color: rgb(6, 184, 0);
+}
+
+li {
+    color: rgb(0, 0, 0);
+}
+
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    overflow: auto;
+    margin: 10px;
+    padding: 0 12px 0 34px;
+    width: 25vw;
+    height: 50vh;
+    border: 2px solid rgba(0, 136, 255, 0.961);
+    background-color: rgba(0, 191, 255, 0.324);
+}
